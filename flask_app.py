@@ -13,7 +13,5 @@ def map_func():
 @app.route("/redirecting", methods=["POST"])
 def redirecting():
     if request.method == "POST":
-        dct = request.form
-        nickname = dct["name"]
-        createweb.main(nickname)
+        createweb.main(request.form["name"])
         return render_template("twitter_friends.html")
