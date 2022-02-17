@@ -1,5 +1,5 @@
 # TwitterMap
-Web application that creates a map with marks with Twitter friends' locations           
+Web application that creates a map with marks with Twitter friends' locations.           
 You can open it by clicking this link: http://yakorch.pythonanywhere.com/       
 Site will look like this:
 
